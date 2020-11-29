@@ -40,7 +40,7 @@ class NewsDetail extends React.Component {
                 </CardHeader>
                 <CardBody>
                     <h4>{this.state.newsData.description}</h4>
-                    <img src={this.state.newsData.urlToImage}/>
+                    <img  alt="noimage" src={this.state.newsData.urlToImage}/>
                     <Col md="12">
                     <p>
                         {this.state.newsData.content}

@@ -9,11 +9,7 @@ import {
   CardTitle,
   Table,
   Row,
-  Col,
-  InputGroup,
-  InputGroupText,
-  InputGroupAddon,
-  Input
+  Col
 } from "reactstrap";
 
 import Search from './Search';

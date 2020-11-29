@@ -4,7 +4,6 @@ const _ = require('lodash');
 class Base{
 
 _get(options) {
-    let me = this;
     let o = _.extend({}, {}, options);
     console.log(o)
     return new Promise(function(resolve, reject) {
